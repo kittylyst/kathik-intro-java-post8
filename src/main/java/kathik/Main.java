@@ -16,5 +16,10 @@ public final class Main {
 
         // 2. Take the existing code and port to use the new HTTP/2 API provided in (version 10) in an incubator
         // module and remove the dependency on AsynchHTTPClient
+
+        // NOTE: Maven support for post-8 is still developing. You will need to upgrade to at least 3.5.0 and
+        // ideally to latest Maven point release. Not all plugins are fully supported with post-8 yet.
+
+        // Alternatively, Gradle is doing somewhat better these days - but still lacks full support
     }
 }
